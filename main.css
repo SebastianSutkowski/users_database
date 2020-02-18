@@ -1,0 +1,17 @@
+input {
+    margin: 5px;
+    border: solid 2px black;
+    height: 20px;
+    font-size: 18px;
+}
+
+button {
+    margin: 5px;
+    width: 219px;
+    background-color: green;
+    color: white;
+}
+
+a {
+    font-size: 20px;
+}

@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    --blue1: #5cc5ef;
+    --blue2: #344d90;
+    --orange: #ffb745;
+
+}
+
+body {
+    background-color: var(--blue1);
+    text-align: center;
+    position: relative;
+}
+
+button {
+    box-sizing: border-box;
+    margin: 5px;
+    background-color: var(--blue2);
+    border: none;
+    color: white;
+    height: 30px;
+    width: 65px;
+}
+
+button:hover {
+    box-sizing: border-box;
+    background-color: var(--orange);
+    color: black;
+    border: 1px solid var(--blue2);
+}
+
+button:active {
+    position: relative;
+    top: 2px;
+}
+
+input {
+    margin: 5px;
+}
+
+.new_task {
+    margin-top: 10vh;
+}
+
+.tasks {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.tasks_to_do {
+    margin: 20px;
+    min-width: 200px;
+
+    text-align: center;
+}
+
+.tasks_done {
+    margin: 20px;
+    min-width: 200px;
+
+    text-align: center;
+}
+
+.task {
+    line-height: 40px;
+    margin: 5px;
+}
+
+.task button {
+    padding-left: auto;
+    padding-right: 5px;
+}
+
+.task_done {
+    line-height: 40px;
+    margin: 5px;
+}
+
+fieldset {
+    border-color: var(--blue2);
+
+}
+
+legend {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.search_task {
+    margin-right: 14.5vh;
+}
+
+.wid {
+    display: none;
+}
